@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+:global {
+    // global style here
+
+    body {
+        background-color: ghostwhite;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .error {
+        color: red;
+    }
+
+    img {
+        width: 180px;
+        display: inline-block;
+    }
+
+    .logo-spin {
+        animation: App-logo-spin infinite 3s linear;
+    }
+
+    @keyframes App-logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.component-text-field {
+  display: block;
+  label {
+    display: block;
+    padding: 15px 0;
+  }
+  input {
+    border-radius: 1rem;
+    max-width: 100%;
+    min-width: 100%;
+    border: solid 2px #DDD;
+    outline: none;
+    padding: 13px 0;
+    text-indent: 15px;
+    font-size: 15px;
+  }
+
+  input:focus {
+    border: solid 2px #242526;
+  }
+}

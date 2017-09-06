@@ -1,0 +1,27 @@
+.white-frame {
+  background-color: #FFF;
+  width: 600px;
+  margin: auto;
+  padding: 25px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+
+  .box-logo {
+    text-align: center;
+  }
+
+  .box-form {
+    margin-top: 40px;
+  }
+
+  .box-flex {
+    display: flex;
+    justify-content: space-between;
+    a {
+      color: deepskyblue;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
